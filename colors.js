@@ -87,7 +87,7 @@ function strobo() {
 function change() {
     const xhr = new XMLHttpRequest();
     place = document.getElementById("selector").value
-    xhr.open("GET", "http://127.0.0.1:5000/place/"+place);
+    xhr.open("GET", "http://192.168.0.101:5000/place/"+place);
     xhr.send();
     xhr.responseType = "json";
     xhr.onload = () => {
