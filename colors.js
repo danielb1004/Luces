@@ -126,7 +126,7 @@ function change() {
 
 
 window.onload = function() {
-    // setInterval(change, 100);
+    setInterval(change, 100);
     
     
     // on();
